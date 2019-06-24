@@ -4,9 +4,6 @@ version: 1.0.{build}
 # Build worker image
 image: Visual Studio 2017
 
-# Build platform
-platform: Any CPU
-
 # Build Configuration
 configuration: Debug
 
