@@ -1,0 +1,10 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+
+# Execute script before build
+before_build:
+ - nuget restore p1\p1.sln
+
+# MSBuild settings
+build:
+  project: p1\p1.sln
