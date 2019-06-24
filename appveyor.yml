@@ -2,7 +2,7 @@ image: Visual Studio 2017
 
 # Execute script before build
 before_build:
- - nuget restore Project21\Project2.sln
+ - nuget restore Project2\Project2.sln
 
 # MSBuild settings
 build:
