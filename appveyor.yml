@@ -4,9 +4,6 @@ version: 1.0.{build}
 # Build worker image
 image: Visual Studio 2017
 
-# Build Configuration
-configuration: Debug
-
 # MSBuild settings
 build:
   project: p1\p1.sln
