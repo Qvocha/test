@@ -1,9 +1,9 @@
-image: Visual Studio 2019
+image: Visual Studio 2017
 
 # Execute script before build
 before_build:
- - nuget restore p1\p1.sln
+ - nuget restore project2\project2.sln
 
 # MSBuild settings
 build:
-  project: p1\p1.sln
+  project: project2\project2.sln
