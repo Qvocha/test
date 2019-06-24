@@ -1,6 +1,3 @@
-# Version format
-version: 1.0.{build}
-
 # Execute script before build
 before_build:
  - nuget restore p1\p1.sln
