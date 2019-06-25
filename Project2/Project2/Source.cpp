@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a, b, s, k;
+	int a, b, s;
 	cin >> a >> b;
 	if (!(0 <= b && b <= a))
-		cout << "Íåâåðíûå äàííûå";
+		cout << "ÃÃ¥Ã¢Ã¥Ã°Ã­Ã»Ã¥ Ã¤Ã Ã­Ã­Ã»Ã¥";
 	else {
 		s = a;
-		k = 1;
+		int k = 1;
 		while (s >= b) {
 			s = s - k;
 			k = k + 1;
