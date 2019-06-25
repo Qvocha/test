@@ -3,5 +3,4 @@
 
 TEST(T1, T) {
   EXPECT_EQ(5, f());
-  EXPECT_TRUE(true);
 }
