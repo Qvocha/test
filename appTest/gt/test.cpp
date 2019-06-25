@@ -1,6 +1,7 @@
 #include "pch.h"
+#include "..//appTest/header.h"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
+TEST(T1, T) {
+  EXPECT_EQ(5, f());
   EXPECT_TRUE(true);
 }
