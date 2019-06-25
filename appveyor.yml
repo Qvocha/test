@@ -1,11 +1,12 @@
-image: Visual Studio 2017
+image: Visual Studio 2019
 
-# Execute script before build
+environment:
+  
+  matrix:
+  - solution_path: appTest/appTest.sln
+  
 before_build:
- - nuget restore p3\p3.sln
+  - nuget restore %solution_path%
 
-# MSBuild settings
-build:
-  project: p3\p3.sln
-test_script:
-  - google test p3/ut1.sln
+build_script:
+- msbuild %solution_path%
