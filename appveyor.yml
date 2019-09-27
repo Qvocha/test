@@ -3,7 +3,7 @@ image: Visual Studio 2019
 environment:
   
   matrix:
-  - solution_path: testAppVeyor/testAppVeyor.sln
+  - solution_path: project/project.sln
   
 before_build:
   - nuget restore %solution_path%
