@@ -1,4 +1,0 @@
-﻿  pch.cpp
-  test.cpp
-Source.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  Sample-Test1.vcxproj -> C:\gh\Qvocha\test\Project14\Debug\Sample-Test1.exe
